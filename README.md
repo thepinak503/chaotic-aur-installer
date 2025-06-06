@@ -6,5 +6,4 @@ type this command to the terminal window
 ```bash
 curl -fsSL naturl.link/chaotic-aur | sh
 ```
-
-and done!.
+enter your user password in sudo prompt and done!.
