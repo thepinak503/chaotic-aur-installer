@@ -1,9 +1,19 @@
-# chaotic-aur-installer
-Chaotic AUR SUPPORT for arch linux.
+# Chaotic-AUR Installer
 
-## open terminal
-type this command to the terminal window
+This script installs the [Chaotic-AUR](https://chaotic.cx/) repository on Arch Linux.
+
+## Installation
+
+To install, run the following command in your terminal:
+
 ```bash
 curl -fsSL naturl.link/chaotic-aur | sh
 ```
-enter your user password in sudo prompt and done!.
+
+The script will ask for your `sudo` password to complete the installation.
+
+## What it does
+
+The script will:
+1.  Install the `chaotic-keyring` and `chaotic-mirrorlist` packages.
+2.  Add the Chaotic-AUR repository to your `/etc/pacman.conf`.
