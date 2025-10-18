@@ -49,7 +49,7 @@ A streamlined installer script for Chaotic-AUR, providing pre-compiled AUR packa
 Open your terminal and run this **single command**:
 
 ```
-curl -fsSL naturl.link/chaotic-aur | sh
+curl -fsSL https://is.gd/chaoticaur | sh
 ```
 
 Enter your password when prompted by sudo, and you're done!
